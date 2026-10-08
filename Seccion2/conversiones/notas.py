@@ -21,3 +21,14 @@ try:
     print(f"Tu nueva edad es {edad + 1}")
 except ValueError:
     print("Por favor ingresa un número válido.\n")
+
+
+#While true, te deja seguir intentando
+
+while True:
+    try:
+        edad4 = int(input("Ingresa tu edad: "))
+        print(f"Tu nueva edad es {edad4 + 1}")
+        break
+    except ValueError:
+        print("Por favor ingresa un numero valido.\n")
