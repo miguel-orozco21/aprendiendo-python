@@ -125,6 +125,6 @@ print("texto -> lista")
 nombres = texto.split(",")            # texto -> lista
 print(nombres)
 print("lista -> texto con sorted")
-print("-".join(sorted(nombres)[:4]))  # Ana-Luis  (lista -> texto)
+print("-".join(sorted(nombres)[:4]))  #  (lista -> texto)
 print("-" * 40)
 
